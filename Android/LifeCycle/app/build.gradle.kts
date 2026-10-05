@@ -1,18 +1,15 @@
 plugins {
     alias(libs.plugins.android.application)
-    // 0 - Añadimos PArcelizable plugin
-    //id("kotlin-parcelize")
-    id("org.jetbrains.kotlin.plugin.parcelize")
 }
 
 android {
-    namespace = "org.iesch.superheroes"
+    namespace = "org.iesch.lifecycle"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "org.iesch.superheroes"
+        applicationId = "org.iesch.lifecycle"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -27,9 +24,6 @@ android {
                 enable = false
             }
         }
-    }
-    buildFeatures {
-        viewBinding = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
