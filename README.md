@@ -7,5 +7,5 @@ Repositorio oficial destinado a las prácticas, proyectos y desarrollo de aplica
 * **Practica01AdinaAPopa2/**: Práctica 01 – Menu Dashboard.
 
 ## 🛠️ Tecnologías y Entornos
-* Android Studio / Kotlin 
+* Android Studio / Kotlin / Flutter
 * Git & GitHub 🐙
