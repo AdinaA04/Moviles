@@ -70,6 +70,9 @@
                 android:gravity="center">
 
                 <LinearLayout
+                    android:id="@+id/btnEdadCanina"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="16dp"
@@ -117,6 +120,9 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btnSuperHeroes"
+                    android:clickable="true"
+                    android:focusable="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="16dp"

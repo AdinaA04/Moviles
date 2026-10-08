@@ -1,6 +1,8 @@
 package com.example.practica01_adinaapopa
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -28,6 +30,14 @@ class HomeActivity : AppCompatActivity() {
         // 2. Si nos ha llegado un nombre de usuario, cambiamos el texto por defecto
         if (!usuarioRecibido.isNullOrEmpty()) {
             tvSaludo.text = "Hola $usuarioRecibido"
+        }
+
+        // 3. Al pulsar cada icono se abre la app correspondiente
+        findViewById<LinearLayout>(R.id.btnEdadCanina).setOnClickListener {
+            startActivity(Intent(this, EdadCaninaActivity::class.java))
+        }
+        findViewById<LinearLayout>(R.id.btnSuperHeroes).setOnClickListener {
+            startActivity(Intent(this, SuperHeroesActivity::class.java))
         }
     }
 }

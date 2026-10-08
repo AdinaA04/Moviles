@@ -30,10 +30,33 @@
             android:name=".HomeActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- 3. App Edad Canina -->
         <activity
             android:name=".EdadCaninaActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- 4. App SuperHeroes (formulario + pantalla de detalle) -->
+        <activity
+            android:name=".SuperHeroesActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- FileProvider: comparte de forma segura la foto con la app de cámara -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
     </application>
 
 </manifest>
