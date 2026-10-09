@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Practica02-AdinaAPopa</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión o registrarse</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="welcome">¡Bienvenido!</string>
+    <string name="invalid_username">Usuario no válido</string>
+    <string name="invalid_password">La contraseña debe tener más de 5 caracteres</string>
+    <string name="login_failed">Error al iniciar sesión</string>
+    <string name="first_fragment_label">Primer fragmento</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+
+    <!-- Edad Canina -->
+    <string name="pregunta_edad">¿Qué edad tienes?</string>
+    <string name="introduce_tu_edad">Introduce tu edad</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado_texto">Si fueras un perro, tu edad sería de %d años.</string>
+    <string name="texto_toast">Has de introducir tu edad.</string>
+    <string name="volver">Volver</string>
+
+    <!-- Quizzes -->
+    <string name="quiz_title">Quizzes</string>
+    <string name="quiz_progreso">%1$d / %2$d</string>
+    <string name="quiz_enviar">ENVIAR  →</string>
+    <string name="quiz_siguiente">SIGUIENTE  →</string>
+    <string name="quiz_reiniciar">EMPEZAR DE NUEVO</string>
+    <string name="quiz_toast_sin_respuesta">No has seleccionado ninguna respuesta.</string>
+    <string name="quiz_acierto">¡Correcto!</string>
+    <string name="quiz_acierto_detalle">Has elegido la respuesta correcta.</string>
+    <string name="quiz_fallo">¡Fallo!</string>
+    <string name="quiz_fallo_detalle">Has elegido una respuesta incorrecta.</string>
+    <string name="quiz_final">¡Has finalizado el cuestionario!\nPuntuación: %1$d / %2$d</string>
+    <string name="quiz_p1">¿Qué valor de y es solución de esta ecuación?\n\n10 y = 70</string>
+    <string name="quiz_p1_o1">y = 7</string>
+    <string name="quiz_p1_o2">y = 23</string>
+    <string name="quiz_p1_o3">y = 700</string>
+    <string name="quiz_p2">¿Cuál es el lenguaje de programación recomendado por Google para desarrollar apps Android?</string>
+    <string name="quiz_p2_o1">Swift</string>
+    <string name="quiz_p2_o2">Kotlin</string>
+    <string name="quiz_p2_o3">PHP</string>
+    <string name="quiz_p3">¿En qué archivo se declaran las Activities de una app Android?</string>
+    <string name="quiz_p3_o1">strings.xml</string>
+    <string name="quiz_p3_o2">build.gradle</string>
+    <string name="quiz_p3_o3">AndroidManifest.xml</string>
+</resources>

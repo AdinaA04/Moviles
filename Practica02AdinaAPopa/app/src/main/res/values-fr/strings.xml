@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practica02-AdinaAPopa</string>
+    <string name="pregunta_edad">Quel âge avez-vous ?</string>
+    <string name="introduce_tu_edad">Votre âge</string>
+    <string name="calcular">Calculer</string>
+    <string name="resultado_texto">Si vous étiez un chien, vous auriez %d ans.</string>
+    <string name="texto_toast">Vous devez saisir un âge.</string>
+    <string name="volver">Retour</string>
+
+    <!-- Quizzes -->
+    <string name="quiz_title">Quizzes</string>
+    <string name="quiz_progreso">%1$d / %2$d</string>
+    <string name="quiz_enviar">ENVOYER  →</string>
+    <string name="quiz_siguiente">SUIVANT  →</string>
+    <string name="quiz_reiniciar">RECOMMENCER</string>
+    <string name="quiz_toast_sin_respuesta">Vous n\'avez sélectionné aucune réponse.</string>
+    <string name="quiz_acierto">Correct !</string>
+    <string name="quiz_acierto_detalle">Vous avez choisi la bonne réponse.</string>
+    <string name="quiz_fallo">Faux !</string>
+    <string name="quiz_fallo_detalle">Vous avez choisi une mauvaise réponse.</string>
+    <string name="quiz_final">Vous avez terminé le quiz !\nScore : %1$d / %2$d</string>
+    <string name="quiz_p1">Quelle valeur de y est solution de cette équation ?\n\n10 y = 70</string>
+    <string name="quiz_p1_o1">y = 7</string>
+    <string name="quiz_p1_o2">y = 23</string>
+    <string name="quiz_p1_o3">y = 700</string>
+    <string name="quiz_p2">Quel langage Google recommande-t-il pour développer des applications Android ?</string>
+    <string name="quiz_p2_o1">Swift</string>
+    <string name="quiz_p2_o2">Kotlin</string>
+    <string name="quiz_p2_o3">PHP</string>
+    <string name="quiz_p3">Dans quel fichier déclare-t-on les Activities d\'une application Android ?</string>
+    <string name="quiz_p3_o1">strings.xml</string>
+    <string name="quiz_p3_o2">build.gradle</string>
+    <string name="quiz_p3_o3">AndroidManifest.xml</string>
+</resources>

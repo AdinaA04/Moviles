@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practica02-AdinaAPopa</string>
+    <string name="title_activity_login">Login Screen</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Dog Age -->
+    <string name="pregunta_edad">How old are you?</string>
+    <string name="introduce_tu_edad">Your age</string>
+    <string name="calcular">Calculate</string>
+    <string name="resultado_texto">If you were a dog, you would be %d years old.</string>
+    <string name="texto_toast">You must enter an age.</string>
+    <string name="volver">Back</string>
+
+    <!-- Quizzes -->
+    <string name="quiz_title">Quizzes</string>
+    <string name="quiz_progreso">%1$d / %2$d</string>
+    <string name="quiz_enviar">SEND  →</string>
+    <string name="quiz_siguiente">NEXT  →</string>
+    <string name="quiz_reiniciar">START AGAIN</string>
+    <string name="quiz_toast_sin_respuesta">You have not selected any answer.</string>
+    <string name="quiz_acierto">Right!</string>
+    <string name="quiz_acierto_detalle">You have chosen the correct answer.</string>
+    <string name="quiz_fallo">Wrong!</string>
+    <string name="quiz_fallo_detalle">You have chosen an incorrect answer.</string>
+    <string name="quiz_final">You have finished the quiz!\nScore: %1$d / %2$d</string>
+    <string name="quiz_p1">What value of y is a solution to this equation?\n\n10 y = 70</string>
+    <string name="quiz_p1_o1">y = 7</string>
+    <string name="quiz_p1_o2">y = 23</string>
+    <string name="quiz_p1_o3">y = 700</string>
+    <string name="quiz_p2">Which programming language does Google recommend for developing Android apps?</string>
+    <string name="quiz_p2_o1">Swift</string>
+    <string name="quiz_p2_o2">Kotlin</string>
+    <string name="quiz_p2_o3">PHP</string>
+    <string name="quiz_p3">In which file are the Activities of an Android app declared?</string>
+    <string name="quiz_p3_o1">strings.xml</string>
+    <string name="quiz_p3_o2">build.gradle</string>
+    <string name="quiz_p3_o3">AndroidManifest.xml</string>
+</resources>
