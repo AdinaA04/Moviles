@@ -9,7 +9,7 @@ Repositorio oficial destinado a las prácticas, proyectos y desarrollo de aplica
 * 📁 **Practica02AdinaAPopa**: Práctica 02 – App Quizzes. (Práctica 1 + Práctica 2).
 * 📁 **Practica3FlutterAdina**: Práctica 03 - Navegación y Widgets en Flutter.
 * 📁 **Practica4FlutterAdina**: Práctica 04 - Login App en Flutter.
-* 📁 **FlutteR**: Práctica 04 - ejercicios hechos con flutter.
+* 📁 **Flutter**: Práctica 04 - ejercicios hechos con flutter.
 ---------------------------------------------------------------------------------  
 ## 🛠️ Tecnologías y Entornos
 * Android Studio / Kotlin / Flutter
